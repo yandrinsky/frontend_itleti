@@ -1,0 +1,104 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.header{
+    height: 70px;
+    background-color: #75CBC2;
+    color: #F5D6D7;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+}
+
+.header h1{
+    margin: 0;
+}
+
+.photo{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin-right: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.photo img{
+    width: 300px;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 70px);
+    background: no-repeat center / cover url("https://catherineasquithgallery.com/uploads/posts/2021-02/1613711953_1-p-milii-fon-dlya-prezentatsii-1.jpg");
+    position: relative;
+}
+
+.about::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0 ,0, 0, 0.1);
+}
+
+.info{
+    position: relative;
+    z-index: 2;
+}
+
+.feedback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    min-height: 100vh;
+    background: no-repeat center / cover url("https://phonoteka.org/uploads/posts/2021-04/1618895003_9-phonoteka_org-p-ploskii-fon-9.jpg ");
+}
+
+.form{
+    text-align: center;
+}
+
+.input_wrapper{
+    border: 4px dashed white;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.btn{
+    padding: 10px 17px;
+    border: none;
+    border-radius: 7px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+.like span{
+    color: red;
+}
+
+.textarea{
+    resize: none;
+    padding: 10px;
+    font-size: 16px;
+    background: rgba(0,0,0, 0.2);
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+
+
+
+.textarea:focus{
+    outline: none;
+}
+
+
