@@ -1,0 +1,24 @@
+.box{
+    width: 200px;
+    height: 80px;
+    background-color: rgba(173,216,230, 50%);
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    grid-gap: 10px;
+}
+
+.red{
+    background-color: rgba(255,0,0, 50%);
+}
+
+.green{
+    background-color: rgba(0,128,0, 50%);
+}
+
+.black{
+    background-color: rgba(43,43,43, 50%);
+}
